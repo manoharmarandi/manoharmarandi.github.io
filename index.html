@@ -49,16 +49,16 @@
                     <a href="https://github.com/manoharmarandi" target="_blank">Github</a>
                 </li>
                 <li>
-                    <i class="fa-regular fa-envelope"></i>
-                    <a href="mailto:manohar.marandi15@gmail.com">Email</a>
-                </li>
-                <li>
                     <i class="fa-brands fa-google-scholar"></i>
                     <a href="https://scholar.google.com/citations?user=NsBnv3EAAAAJ&hl=en" target="_blank">Google-Scholar</a>
                 </li>
                 <li>
                     <i class="fa-brands fa-orcid"></i>
                     <a href="https://orcid.org/0009-0004-2017-9535" target="_blank">ORCiD</a>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:manohar.marandi15@gmail.com">Email</a>
                 </li>
             </ul>
         </div>
@@ -70,7 +70,38 @@
                 <p>Security Enthusiast</p>
             </div>
             <div class="body-title">
-                <h1>Hello, I am<br><span style="font-size: 1.5em;">Manohar Marandi</span></h1>
+                <head>
+                    <style>
+                        #greetingText {
+                            transition: opacity 0.5s ease-in-out;
+                        }
+                    </style>
+                    <title>Changing Greetings</title>
+                </head>
+                
+                <body>
+                
+                    <h1><span id="greetingText">Hello</span>, I am<br><span style="font-size: 1.5em;">Manohar Marandi</span></h1>
+                
+                    <script>
+                        const greetings = ['Hello', 'नमस्ते', 'ᱡᱚᱦᱟᱨ', 'নমস্কার', 'Konnichiwa', 'Bonjour', 'Hola', 'Ni hao', 'Hallo', 'வணக்கம்', 'Dia dhuit', 'Olà', 'Guten Tag', 'Salve', 'Ciao', 'שלום', 'Здравствуйте', 'مرحبًا', 'Xin Chào' ];
+                        let index = 0;
+                
+                        function changeGreeting() {
+                            const greetingTextElement = document.getElementById('greetingText');
+                
+                            greetingTextElement.style.opacity = 0; // Fade out
+                
+                            setTimeout(() => {
+                                greetingTextElement.innerHTML = greetings[index]; // Update greeting content
+                                greetingTextElement.style.opacity = 1; // Fade in
+                                index = (index + 1) % greetings.length;
+                            }, 500); // Wait for fade out before updating greeting content
+                        }
+                
+                        setInterval(changeGreeting, 2000); // 2 seconds interval (including fade in/out time)
+                    </script>
+                    
                 <p>ex-DevOps & Security Engineer at <a href="https://gintaa.com" target="_blank" style="text-decoration: none; color: rgb(8, 215, 8);"><img src="assets/logo.jpeg" alt="Logo" style="height: 1em; vertical-align: middle; margin-right: 5px;">gintaa</a></p>
                 <a href="https://www.linkedin.com/in/manohar-marandi-0107a2183" target="_blank">LET'S Connect!</a><br><br>
                 <a href="assets/Manohar_Resume.pdf" target="_blank" download="Manohar_Resume.pdf">Download My Resume</a>
@@ -340,7 +371,6 @@
                 <a href="https://orcid.org/0009-0004-2017-9535" target="_blank">
                     <i class="fa-brands fa-orcid"></i>
                 </a>
-            
             </div>
         </div>
     </section>
@@ -348,3 +378,4 @@
 </body>
 
 </html>
+<!-- ['Hello', 'नमस्ते', 'ᱡᱚᱦᱟᱨ', 'নমস্কার', 'Konnichiwa', 'Bonjour', 'Hola', 'Ni hao', 'Hallo', 'வணக்கம்' 'Dia dhuit', 'Olà', 'Guten Tag', 'Salve', 'Ciao', 'שלום', 'Здравствуйте', 'مرحبًا', 'Xin Chào'] -->
