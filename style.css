@@ -702,11 +702,26 @@ body::selection {
   align-items: center;
   flex-wrap: wrap;
  }
- 
+
+ #publication .bigger-design-card {
+  max-width: 2000px; /* Set the desired maximum width */
+  margin-bottom: 20px; /* Optional: Add space between cards */
+  margin: 10 auto; /* Center the card horizontally */
+  padding: 20px; /* Optional: Add padding for better appearance */
+}
+#publication .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
  /* Update the existing card styles to include the publication section */
- .cards .design-card {
+ #publication .design-card {
   /* ... existing styles ... */
   /* Additional styles for the publication section */
-  flex: 1 1 250px;
+  flex: 0 0 48%;
   margin: 10px;
+  margin-bottom: 20px; /* Add space between cards if desired */
+  padding: 15px; /* Optional: Add padding for better appearance */
+  display: inline-block;
  }

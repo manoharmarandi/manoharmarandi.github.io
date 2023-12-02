@@ -24,7 +24,7 @@
 <body>
     <section id="header">
         <div class="navbar-title">
-            <h3 class="title-first-name">
+            <h3 class="title-first-name" href="#content-body">
                 Manohar
             </h3>
            
@@ -32,8 +32,8 @@
         <div>
             <ul class="navbar-menu">
                 <li><a class="profile-card-active" href="#aboutme"> About </a></li>
-                <li><a class="profile-card-active" href="#introduction">Works</a></li>
-                <li><a class="profile-card-active" href="#publication">Publication</a></li>
+                <li><a class="profile-card-active" href="#introduction">Projects</a></li>
+                <li><a class="profile-card-active" href="#publication">Publications</a></li>
                 <li><a class="profile-card-active" href="#skill">Skills</a></li>
                 <li><a class="profile-card-active" href="#footer">Contacts</a></li>
             </ul>
@@ -74,9 +74,6 @@
                     </style>
                     <title>Changing Greetings</title>
                 </head>
-                
-                <body>
-                
                     <h1><span id="greetingText">Hello</span>, I am<br><span style="font-size: 1.5em;">Manohar Marandi</span></h1>
                 
                     <script>
@@ -114,19 +111,15 @@
             </div>
         </div>
         <div class="body-part-2">
-            <div class="container">
-                
+            <div class="container">   
                 <div class="svg-animation">
                   <img src="assets/cyber.svg">
-                </div>
-              
-                
-                
-              </div>
-            </div>  
+                </div> 
+            </div>
+        </div>  
     </section>
 
-<!-- 2nd Page -->
+<!-- who am i -->
 
     <section id="aboutme">
         <div class="body-part-2">
@@ -158,12 +151,12 @@
             </div>
     </section>
 
-<!-- 3rd page -->
+<!-- Project -->
 
     <section id="introduction">
         <div class="heading-container">
             <h3 class="section-heading">Latest Projects</h3>
-            <p>Perfect solutions for digital experience</p>
+            <!-- <p>Perfect solutions for digital experience</p> -->
         </div>
         
         <div class="cards-container">
@@ -172,9 +165,12 @@
             <div class="design-card active">
                 <div>
                     <h3>Implementing and Automating Security Scanning to a DevSecOps Cl/CD Pipeline</h3>
-                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <i class="fa-solid fa-code"></i>
                 </div>
-                <p>Implementing and Automating Security Scanning to a DevSecOps Cl/CD Pipeline</p>
+                <p>• Integrated Snyk and StackHawk tools in CI/CD with GitHub Action, enabling automatic vulnerability scanning and fixing during the build process.<br>
+                    • Conducted SAST (Static Application Security Testing) and DAST (Dynamic Application Security Testing) vulnerability scanning ot identify and mitigate security threats.<br>
+                    • Monitored scanning results using the dashboard provided by Snyk and StackHawk tools.<br>
+                    • Improved overall security of the application by reducing the time to detect and fix vulnerabilities.</p>
                 
             </div>
             <div class="design-card">
@@ -182,15 +178,21 @@
                     <h3>Security-by-Design Approach into the Software Development Lifecycle of Cloud-Based IoT Microservices</h3>
                     <i class="fa-solid fa-code"></i>
                 </div>
-                <p>lorem ipsoum.</p>
+                <p>• Proposed architectural framework that seamlessly incorporates Security-by- Design into SDLC for cloud-based loT microservices.<br>
+                    • Integrated security testing ni CI/CD pipeline for early detection and resolution of vulnerabilities.<br>
+                    • Leveraged Docker and Azure Container Registry for secure microservices packaging.<br>
+                    • Implemented Azure loT Hub, Microsoft Defender, and Azure Sentinel for robust device and data security.<br>
+                    • Demonstrated proactive security measures throughout SDLC, adapting to dynamic threat landscape.</p>
                 
             </div>
             <div class="design-card">
                 <div>
                     <h3>Advance Dynamic Application Security Testing to find defects in Web Application</h3>
-                    <i class="fa-solid fa-terminal"></i>
+                    <i class="fa-solid fa-code"></i>
                 </div>
-                <p>lorem ipsoum.</p>
+                <p>• Fundamental understanding of Open Web Application Security Project (OWASP) Top 10 and vulnerabilities.<br>
+                    • Use of DAST tools and techniques (Burp Suite tool and OWASP Zed proxy attack tool).<br>
+                    • Done Dynamic Testing and Static testing techniques to uncover al types of defects ni insecure applications.</p>
                 
             </div>
     </div>
@@ -210,38 +212,44 @@
                 </div>
     </section>.
 
-<!-- test -->
+<!-- Publication -->
 
 <section id="publication">
     <div class="heading-container">
         <h3 class="section-heading">Publication</h3>
-        <p>Latest publication</p>
+        <!-- <p>Latest publication</p> -->
     </div>
-    
+
     <div class="cards-container">
-    <div class="cards">
-       
-        <div class="design-card active">
-            <div>
-                <h3>Implementing and Automating Security Scanning to a DevSecOps CI/CD Pipeline</h3>
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <div class="cards">
+            <!-- Apply the custom class to the design card you want to make bigger -->
+            <div class="design-card active bigger-design-card">
+                <div>
+                    <h3>
+                        Implementing and Automating Security Scanning to a DevSecOps CI/CD Pipeline<br>
+                        <span style="font-size: 70%;">IEEE, World Conference on Communication & Computing (WCONF 2023)</span>
+                    </h3>   
+                    <i class="fa-solid fa-newspaper"></i>
+                </div>
+                <p>The Research Paper discusses the impact of DevOps, containerization, and CI/CD on software development, highlighting security challenges in containerized applications. It emphasizes the significance of security scanning in DevSecOps pipelines and proposes using Snyk and StackHawk tools for automated vulnerability scanning and fixing. The research aims to assess the effectiveness of this approach, asserting its potential to enhance overall application security by reducing vulnerability detection and fixing times.</p>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10235015" target="_blank"><span style="font-size: 0.8em;">IEEE Xplore Link</span></a>
             </div>
-            <p>The Research Paper discusses the impact of DevOps, containerization, and CI/CD on software development, highlighting security challenges in containerized applications. It emphasizes the significance of security scanning in DevSecOps pipelines and proposes using Snyk and StackHawk tools for automated vulnerability scanning and fixing. The research aims to assess the effectiveness of this approach, asserting its potential to enhance overall application security by reducing vulnerability detection and fixing times.</p>
-        </div>
-        <div class="design-card">
-            <div>
-                <h3>Security Testing of Containerized IoT Applications in the Automatic Deployment Process</h3>
-                <i class="fa-solid fa-code"></i>
+            <div class="design-card active bigger-design-card">
+                <div>
+                    <h3>Security Testing of Containerized IoT Applications in the Automatic Deployment Process<br>
+                        <span style="font-size: 70%;">IEEE, International Interdisciplinary Humanitarian Conference for Sustainability (IIHC 2023)</span>
+                    </h3>
+                    <i class="fa-solid fa-newspaper"></i>
+                </div>
+                <p>The paper explores the security challenges in automatically deploying containerized IoT applications amidst the rapid growth of containerization and the Internet of Things (IoT). It proposes integrating Snyk, Trivy, and Anchore security scanning tools into GitHub Actions workflows for security testing. The methodology includes configuring automated deployment pipelines and assessing the tools' effectiveness in identifying vulnerabilities. The research presents a comparative analysis of the tools, emphasizing accuracy, speed, and coverage. It concludes by offering practical insights on seamless tool integration, providing valuable guidance for IoT developers and DevOps teams to enhance security in automatic deployments, fostering the development of secure IoT ecosystems.</p>
             </div>
-            <p>The text explores the security challenges in automatically deploying containerized IoT applications amidst the rapid growth of containerization and the Internet of Things (IoT). It proposes integrating Snyk, Trivy, and Anchore security scanning tools into GitHub Actions workflows for security testing. The methodology includes configuring automated deployment pipelines and assessing the tools' effectiveness in identifying vulnerabilities. The research presents a comparative analysis of the tools, emphasizing accuracy, speed, and coverage. It concludes by offering practical insights on seamless tool integration, providing valuable guidance for IoT developers and DevOps teams to enhance security in automatic deployments, fostering the development of secure IoT ecosystems.</p>
-            
         </div>
-    </div>
     </div>
 </section>
-<!-- test -->
 
-<!-- page 4 -->
+<!-- Publication -->
+
+<!-- skills -->
 
     <section id="skill">
         <div class="heading-container">
@@ -269,7 +277,7 @@
                     <h3>Cybersecurity Skills</h3>
                     <i class="fa-solid fa-wand-magic-sparkles"></i>
                 </div>
-                <p>Vulnerability Assesment • Cloud Security • Information Security Management System (ISMS) • VAPT • Ethical Hacking • Social Engineering  • Network Security  • IT Security Assessments • Penetration Testing • Application Security • Identity Access Management (IAM)</p>
+                <p>Vulnerability Assesment • Cloud Security • Container Security • DevSecOps • Information Security Management System (ISMS) • Security Information and Event Management (SIEM) • Security Orchestration, Automation, and Response (SOAR) • VAPT • Ethical Hacking • Social Engineering  • Network Security  • IT Security Assessments • Penetration Testing • Application Security • Identity Access Management (IAM)</p>
                 
             </div>
             <div class="design-card">
@@ -277,7 +285,7 @@
                     <h3>DevOps Skills</h3>
                     <i class="fa-solid fa-code"></i>
                 </div>
-                <p>CI/CD • Containerization and Orchestration • Automating infrastructure • Docker • Kubernetes • Github Action • Monitoring • GitOps • Infrastructure as a Code (IaC) • Terraform</p>
+                <p>Continous Integration / Contionous Delivery (CI/CD) • Containerization and Orchestration • Automating infrastructure • Agile Methodologies • Microservices Architecture • DevSecOps practices • Serverless Computing • Docker • Kubernetes • Github Action • Monitoring and Logging • GitOps • Bash • Release Management • Infrastructure as a Code (IaC) • Terraform</p>
                 
             </div>
             <div class="design-card">
@@ -313,7 +321,7 @@
       
     </section>
  
-<!-- 5th page -->
+<!-- contact me -->
 
     <section id="footer">
         <div class="footer-left">
@@ -374,4 +382,3 @@
 </body>
 
 </html>
-<!-- ['Hello', 'नमस्ते', 'ᱡᱚᱦᱟᱨ', 'নমস্কার', 'Konnichiwa', 'Bonjour', 'Hola', 'Ni hao', 'Hallo', 'வணக்கம்' 'Dia dhuit', 'Olà', 'Guten Tag', 'Salve', 'Ciao', 'שלום', 'Здравствуйте', 'مرحبًا', 'Xin Chào'] -->
