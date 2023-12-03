@@ -231,7 +231,6 @@ body::selection {
 #aboutme{
   display: flex;
   background-color: #25262a;
-  
   height: 90vh;
   align-content: center;
   align-items: center;
@@ -334,10 +333,11 @@ body::selection {
   position: relative;
   justify-content: space-between;
   padding: 100px;
-  background-color: #2d2e3273;
+  background-color: #25262a;
   min-height: 95vh;
   align-items: center;
 }
+
 #skill {
   display: flex;
   position: relative;
@@ -462,10 +462,6 @@ body::selection {
 .image-container {
   padding-left: 20px;
 }
-
-
-
-
 
 /* ----------FOOTER---------- */
 #footer {
