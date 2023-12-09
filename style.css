@@ -710,7 +710,6 @@ body::selection {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
  /* Update the existing card styles to include the publication section */
  #publication .design-card {
   /* ... existing styles ... */
