@@ -93,3 +93,13 @@ hdfcbankprepaiduat.hdfcbank.com
 hdfcbankpaymentspreprod.hdfcbank.com
 hdfcjmrcap.hdfcbank.com
 hdfcjmrcap.hdfcbank.com
+cobrowse.axisbank.com
+marketing.axisbank.com
+smtpbm2.axisbank.com
+digitaloutbound.axisbank.com
+drsmtpout.axisbank.com
+axisbank.com
+apiportal.axisbank.com
+remotesupport.axisbank.com
+applemduat.axisbank.com
+smtpbm.axisbank.com
